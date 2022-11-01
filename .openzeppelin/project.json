@@ -1,0 +1,25 @@
+{
+  "manifestVersion": "2.2",
+  "name": "StableCoin",
+  "version": "1.0.0",
+  "compiler": {
+    "solcVersion": "0.6.8",
+    "manager": "openzeppelin",
+    "artifactsDir": "build/contracts",
+    "contractsDir": "contracts",
+    "compilerSettings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": "2000"
+      }
+    },
+    "typechain": {
+      "enabled": false
+    }
+  },
+  "contracts": {
+    "StableCoin": "StableCoin"
+  },
+  "dependencies": {},
+  "telemetryOptIn": false
+}
